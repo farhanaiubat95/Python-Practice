@@ -35,3 +35,17 @@ print("Dict update single details: ",car)
 car_update= {"Code":"1020","Year":2020,"Car Name":"Tesla"}
 car.update(car_update)
 print("Dict update multiple details: ",car)
+
+#input taking
+marks={}
+phy=int(input("Enter physics mark : "))
+marks.update({"Physics":phy})
+
+chem=int(input("Enter chemistry mark : "))
+marks.update({"chemistry":chem})
+
+math=int(input("Enter math mark : "))
+marks.update({"math":math})
+
+print()
+print("Total : ",marks)
